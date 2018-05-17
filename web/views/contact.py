@@ -11,9 +11,9 @@ class SendEmail(object):
         self._user_email=user_email
         self._message=message
         self.host="smtp.mxhichina.com"  #设置服务器
-        self.send_user="zhangxing@ckower.com"    #用户名
-        self.send_pass="me2018$4321"   #口令 
-        self.reciver="1016191364@qq.com" #接收邮件
+        self.send_user=""    #用户名
+        self.send_pass=""   #口令 
+        self.reciver="" #接收邮件
 
     def send_email(self):
         mail_msg='''
